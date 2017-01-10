@@ -85,6 +85,26 @@ end
 
 puts fairground(30, 1.4)
 
+#creative function below
+
+def sleep_decider(time)
+  if (time >= 10) 
+    return "Go to bed!"
+  else
+    return "Get some more coding done!"
+  end
+end
+
+puts sleep_decider(8)
+
+
+# wanted to do creative function by setting variables to to user input and having a && operator but couldn't get to run!
+# puts "How many hours have you been coding?"
+# time = gets.chomp.to_i  
+# puts "Are you tired?"
+# response = yes
+# sleep_decider(time, response)
+
 
 
 
